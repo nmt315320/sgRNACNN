@@ -33,5 +33,4 @@ download:http://crispr.hzau.edu.cn/CRISPR-Local/.
 * #### **Data format:**      
 *   **sgRNA sequence:** TGAGAAGTCTATGAGCTTCAAGG (23bp)     
 
-#### **Output (Predicted activity score for gRNA):** 
-0.22743436 
+
