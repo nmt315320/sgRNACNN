@@ -19,13 +19,13 @@ Ubuntu 16.04 download from https://www.ubuntu.com/download/desktop
 #### **Python and packages**  
 Download Anaconda 3-5.2.0 tarball on https://www.anaconda.com/distribution/#download-section  
 
-#Dataset：
+**Dataset**：
 reference：CRISPR-Local: a local single-guide RNA (sgRNA) design tool for non-reference plant genomes.
 download:http://crispr.hzau.edu.cn/CRISPR-Local/.    
 After downloading the data set, use cd-hit to de-redundant, where the positive and negative thresholds are 0.4 and 0.3 respectively.
 We conducted an independent test set verification on the four crops. In the independent test set verification, Randomly select 80% of the data set as the training set and 20% as the test set.
 
-Using：
+#**Using**：
 Including two py files, train.py and test.py;
 First run train.py, and then get 5 separate models and an integrated model; then run test.py to get the result.
 
