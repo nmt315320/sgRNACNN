@@ -1,7 +1,4 @@
-# Authors: PhD. Nguyen Hong Quang
-# School of Information and Communication Technology
-# Hanoi University of Science and Technology
-# Email: quangnh@soict.hust.edu.vn
+
 
 import numpy as np
 
