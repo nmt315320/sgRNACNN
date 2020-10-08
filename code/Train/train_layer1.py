@@ -415,14 +415,12 @@ def train_one_fold(dataset, fold):
     file_model =  os.path.join(MODEL_DIR, model_fn) 
     result_val = evaluate(file_model, val_loader)
     
-# >chrX_48897056_48897256
-# CACAATGTAGAAGCAGAGACACAGGAACCAGGCTTGGTGATGGCTCTCAGGGGTCACAGTCTGATGGGGGACACACTGGAGGTCAGTCTGGTGGGGGAGTTTTAGCCTTTGGTCCTTATGGTGAAGCCTAGATTTGAGCCTGTTCACATATTAAGTGGAGATGCTATTGTTCAGCTCTGCAAGGGGGGGTTTGTCCTATT
 def train_kfold():
     print("\n ==> Loading train set")
-    data_enhancers = load_text_file('data_strong_enhancers.txt')
+    data_enhancers = load_text_file('data_p.txt')
 
     print("data_enhancers: ", len(data_enhancers))
-    data_non_enhancers = load_text_file('data_non_enhancers.txt')
+    data_non_enhancers = load_text_file('data_n.txt')
     print("data_non_enhancers: ", len(data_non_enhancers))    
     
     label_enhancers = np.ones((len(data_enhancers),1))
